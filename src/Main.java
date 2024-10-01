@@ -7,5 +7,10 @@ public class Main {
         double Calificacion=8.2;
         double Media=(8.2+6.0+9.0)/3;
         System.out.println("Media: "+Media);
+        String sinopsis= "Matrix es una pelicula de Ciencia Ficción creada en " +FechaDeLanzamiento+
+                " cuya calificación es " + Calificacion;
+        System.out.println("Sinopsis: "+sinopsis);
+        int puntuacion=(int) Media/2; //CASTING DE DOUBLE (Media) A INT (puntuacion)
+        System.out.println("Su puntuación es: " + puntuacion);
     }
 }
